@@ -45,7 +45,7 @@ if __name__ == '__main__':
     # Frequency
     f = 100.0
     # Robot simulation
-    robot = RosRobot('ff6dofModelPinPy', 'oscr_rosexample',
+    robot = RosRobot('ff6dofModelPy', 'oscr_rosexample',
                      '/urdf/ff6dof.urdf', f, fbase, backend)
     # Print robot model information
     robot.printModelInfo()
